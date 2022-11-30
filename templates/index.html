@@ -3,16 +3,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
 
 <body>
+
+    <img src="static/Mr.Atabekyan.jpeg">
     <div class="App">
-        <header class="App-header">
-            <img src="{{ url_for('static', filename='Octocat.png') }}" class="App-logo" alt="logo" />
-            <p>
-                GitHub Codespaces <span class="heart">♥️</span> Flask
-            </p>
-            <p class="small">
-                Edit <code>templates/index.html</code> and refresh to see your changes!
-            </p>
-        </header>
+        <form action="" method="POST"> 
+            <p>Rate 1-10 <input name="score" /></p> 
+            <p><input type="submit"></p> 
+         </form> 
     </div>
 </body>
 
